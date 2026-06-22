@@ -1,0 +1,10 @@
+body {
+	background-attachment: fixed;
+	background-size: contain; /* https://www.w3schools.com/cssref/css3_pr_background-size.php */
+	/* VIEWPOINT EXAMPLE */
+	/*height: 96vh;*/ /* after applying the viewpoint meta tag in the HTML then could add this value as per: https://stackoverflow.com/questions/38789139/css-how-to-set-the-width-and-height-dependent-on-the-screen-window-size */
+	background-image: url("../images/janjf93-interface-3614766_1280.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #B4C5F0;
+}
