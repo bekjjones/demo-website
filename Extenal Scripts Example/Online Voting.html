@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Online Voting</title>
+
+</head>
+
+<body>
+
+<h1>Online Voting</h1>
+
+<h2>Candidates</h2>
+
+<div id="IDCandidates">YYY</div>
+
+<script language="javascript"  src="scripts/myScript.js"></script>
+
+<p>
+Enter your number of the candidate you wish to vote for and press <b>[Vote]</b> to vote.
+</p>
+
+<form>
+
+Candidate Number: <input id="IDSelection" "type="text" /><br>
+<p id="errorMessage"></p>
+<br>
+
+
+<input id="IDVote" type="button" value="Vote" onClick="Vote();"/><br><br>
+
+<!--<input id="IDTally" type="button" value="Tally Votes" onClick="Tally();"/><br><br>-->
+
+</form>
+
+<div id="IDOutput"></div>
+
+</body>
+</html>
