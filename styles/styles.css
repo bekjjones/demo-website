@@ -13,8 +13,8 @@
 
 body {
     /* give the web page the fulle screen to use */
-    width: 99vw;       /* Takes up 100% of the screen width */
-    height: 99vh;      /* Takes up 100% of the screen height */
+    width: 95vw;       /* Takes up 100% of the screen width */
+    height: 95vh;      /* Takes up 100% of the screen height */
 }
 
 h1, h2, footer {
