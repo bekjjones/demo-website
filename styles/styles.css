@@ -17,7 +17,7 @@ body {
     height: 100vh;      /* Takes up 100% of the screen height */
 }
 
-h2 {
+h1, h2, footer {
     /* style the headings for website examples */
-    margin: 1%;
+    margin: 4%;
 }
