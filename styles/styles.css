@@ -5,9 +5,19 @@
 */
 
 * {
+    /* align all emements & set the font */
     align-content: center;
     vertical-align: middle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    /* give the web page the fulle screen to use */
     width: 100vw;       /* Takes up 100% of the screen width */
     height: 100vh;      /* Takes up 100% of the screen height */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    /* style the headings for website examples */
+    margin: 10%;
 }
