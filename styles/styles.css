@@ -1,7 +1,13 @@
+/* 
+    MDN | Using media queries: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using
+
+    CSS Tip | Get the screen width & height without JavaScript: https://css-tip.com/screen-dimension/
+*/
+
 * {
     align-content: center;
     vertical-align: middle;
-    width: 100%;
-    height: 100%;
+    width: 100vw;       /* Takes up 100% of the screen width */
+    height: 100vh;      /* Takes up 100% of the screen height */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
